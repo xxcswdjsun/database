@@ -5,10 +5,10 @@ public class AllStr {
     /**
      * API v2 
      */
-    public static final String API_LOGIN = "";
-    public static final String API_PASSWORD = "";
-    public static final String API_XXCSWD_TOKEN = "";
-    public static final String API_JIEHENG_TOKEN = "";
+    public static final String API_LOGIN = "xxcswdsunjian";
+    public static final String API_PASSWORD = "sunjian830801";
+    public static final String API_XXCSWD_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkiLCJpYXQiOjE1MzYzMDY3NTksImV4cCI6MTg1MTY2Njc1OSwibmJmIjoxNTM2MzA2NzU5LCJqdGkiOjQ4Njc2MCwic3ViIjo0ODY3NjB9.eZfyhXU2nPprFKfb4RN4VNi6urjBbO4x9VnGrctlEng";
+    public static final String API_JIEHENG_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkiLCJpYXQiOjE1Mzc0Mzk4NzUsImV4cCI6MTg1Mjc5OTg3NSwibmJmIjoxNTM3NDM5ODc1LCJqdGkiOjc5NjY2OCwic3ViIjo3OTY2Njh9.sRc7WeZp5rEnHwzyrlj7YvoKBmWJprxtr5Fy6XyvZsE";
     
     public static final String API_BASEURL = "https://api2.hiveos.farm/api/v2";
     public static final String API_URL_LOGIN = "/auth/login";
@@ -94,8 +94,8 @@ public class AllStr {
 	 * DataBase part
 	 */
 	public static final String DB_JDBC_DRIVER = "com.mysql.cj.jdbc.Driver"; 
-	public static final String DB_SERVER_URL = "jdbc:mysql://localhost:3306/?useSSL=false&serverTimezone=GMT%2B8";
-	public static final String DB_RIG_INFO_DB_URL = "jdbc:mysql://localhost:3306/RIG_INFO_DB?useSSL=false&serverTimezone=GMT%2B8";
+	public static final String DB_SERVER_URL = "jdbc:mysql://localhost:3306/?useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true";
+	public static final String DB_RIG_INFO_DB_URL = "jdbc:mysql://localhost:3306/RIG_INFO_DB?useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true";
     public static final String DB_USER_NAME = "root";
     public static final String DB_USER_PASSWORD = "ZAQ!2wsxjh";
     
